@@ -11,11 +11,13 @@ function App() {
   return (
     <>
       <Navigation />
-      <About />
-      <Menu />
-      <Order />
-      <Events />
-      <Jobs />
+      <main>
+        <About />
+        <Menu />
+        <Order />
+        <Events />
+        <Jobs />
+      </main>
       <Contact />
     </>
   );
